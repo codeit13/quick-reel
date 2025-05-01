@@ -17,7 +17,7 @@ import SubtitlePage from "./SubtitlePage";
 import { getVideoMetadata } from "@remotion/media-utils";
 import { loadFont } from "../load-font";
 import { NoCaptionFile } from "./NoCaptionFile";
-import { Caption, createTikTokStyleCaptions } from "@remotion/captions";
+import { createTikTokStyleCaptions } from "@remotion/captions";
 
 export type SubtitleProp = {
   startInSeconds: number;
@@ -51,7 +51,7 @@ const getFileExists = (file: string) => {
 const SWITCH_CAPTIONS_EVERY_MS = 1200;
 
 // Simplified CRT Effect Component
-const CRTEffect = ({ children }) => {
+const CRTEffect = ({ children }: { children: React.ReactNode }) => {
   const frame = useCurrentFrame();
   
   // Combine effects into a single div with CSS
@@ -93,7 +93,7 @@ const CRTEffect = ({ children }) => {
 };
 
 // Simplified Watermark
-const Watermark = ({ text }) => {
+const Watermark = ({ text }: { text: string }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   
@@ -116,7 +116,7 @@ const Watermark = ({ text }) => {
   ) : null;
 };
 
-export const CaptionedVideo = ({ src, watermarkText }) => {
+export const CaptionedVideo = ({ src, watermarkText }: { src: string; watermarkText: string }) => {
   const [subtitles, setSubtitles] = useState([]);
   const [handle] = useState(() => delayRender());
   const { fps } = useVideoConfig();
