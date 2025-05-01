@@ -1,0 +1,51 @@
+{
+  "name": "my-video",
+  "version": "1.0.0",
+  "description": "A Remotion template for TikTok-style captions",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@langchain/core": "^0.3.49",
+    "@langchain/langgraph": "^0.2.67",
+    "@langchain/openai": "^0.5.7",
+    "@remotion/animation-utils": "4.0.291",
+    "@remotion/cli": "4.0.291",
+    "@remotion/layout-utils": "4.0.291",
+    "@remotion/media-utils": "4.0.291",
+    "@remotion/noise": "4.0.291",
+    "@remotion/tailwind-v4": "4.0.291",
+    "@remotion/zod-types": "4.0.291",
+    "elevenlabs": "^1.57.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.3.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.291",
+    "tailwindcss": "4.0.0",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@remotion/captions": "4.0.291",
+    "@remotion/eslint-config-flat": "4.0.291",
+    "@remotion/install-whisper-cpp": "4.0.291",
+    "@types/react": "19.0.0",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.3.3",
+    "typescript": "5.8.2"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "create-subtitles": "node sub.mjs",
+    "create-base-reel": "node create-base-reel.mjs",
+    "render": "remotion render --hardware-acceleration:true --codec=h264 --crf=23 --preset=medium",
+    "generate-reel": "npm run create-base-reel && npm run create-subtitles && npm run render"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

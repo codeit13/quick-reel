@@ -1,0 +1,1262 @@
+[
+  {
+    "text": "Welcome",
+    "startMs": 70,
+    "endMs": 570,
+    "timestampMs": 500,
+    "confidence": 0.887786
+  },
+  {
+    "text": " to",
+    "startMs": 570,
+    "endMs": 730,
+    "timestampMs": 880,
+    "confidence": 0.997307
+  },
+  {
+    "text": " our",
+    "startMs": 730,
+    "endMs": 970,
+    "timestampMs": 1260,
+    "confidence": 0.997094
+  },
+  {
+    "text": " exploration",
+    "startMs": 970,
+    "endMs": 1880,
+    "timestampMs": 1820,
+    "confidence": 0.946538
+  },
+  {
+    "text": " of",
+    "startMs": 1880,
+    "endMs": 2220,
+    "timestampMs": 2100,
+    "confidence": 0.985582
+  },
+  {
+    "text": " the",
+    "startMs": 2220,
+    "endMs": 2480,
+    "timestampMs": 2260,
+    "confidence": 0.991041
+  },
+  {
+    "text": " future",
+    "startMs": 2480,
+    "endMs": 3030,
+    "timestampMs": 2640,
+    "confidence": 0.995112
+  },
+  {
+    "text": " of",
+    "startMs": 3030,
+    "endMs": 3710,
+    "timestampMs": 2920,
+    "confidence": 0.988434
+  },
+  {
+    "text": " AI",
+    "startMs": 3710,
+    "endMs": 3720,
+    "timestampMs": 3480,
+    "confidence": 0.970873
+  },
+  {
+    "text": " and",
+    "startMs": 3720,
+    "endMs": 4040,
+    "timestampMs": 4120,
+    "confidence": 0.996174
+  },
+  {
+    "text": " its",
+    "startMs": 4040,
+    "endMs": 4360,
+    "timestampMs": 4500,
+    "confidence": 0.618133
+  },
+  {
+    "text": " potential",
+    "startMs": 4360,
+    "endMs": 5350,
+    "timestampMs": 5000,
+    "confidence": 0.999424
+  },
+  {
+    "text": " to",
+    "startMs": 5350,
+    "endMs": 5550,
+    "timestampMs": 5380,
+    "confidence": 0.997995
+  },
+  {
+    "text": " transform",
+    "startMs": 5550,
+    "endMs": 6530,
+    "timestampMs": 5980,
+    "confidence": 0.996555
+  },
+  {
+    "text": " our",
+    "startMs": 6530,
+    "endMs": 7390,
+    "timestampMs": 6300,
+    "confidence": 0.999075
+  },
+  {
+    "text": " lives.",
+    "startMs": 7390,
+    "endMs": 7760,
+    "timestampMs": 7000,
+    "confidence": 0.999256
+  },
+  {
+    "text": " Artificial",
+    "startMs": 7760,
+    "endMs": 8550,
+    "timestampMs": 8420,
+    "confidence": 0.968193
+  },
+  {
+    "text": " intelligence",
+    "startMs": 8550,
+    "endMs": 9500,
+    "timestampMs": 9100,
+    "confidence": 0.970295
+  },
+  {
+    "text": " has",
+    "startMs": 9500,
+    "endMs": 9740,
+    "timestampMs": 9640,
+    "confidence": 0.988993
+  },
+  {
+    "text": " rapidly",
+    "startMs": 9740,
+    "endMs": 10300,
+    "timestampMs": 9940,
+    "confidence": 0.996534
+  },
+  {
+    "text": " evolved",
+    "startMs": 10300,
+    "endMs": 10880,
+    "timestampMs": 10700,
+    "confidence": 0.984202
+  },
+  {
+    "text": " impacting",
+    "startMs": 10880,
+    "endMs": 11580,
+    "timestampMs": 11620,
+    "confidence": 0.983074
+  },
+  {
+    "text": " various",
+    "startMs": 11580,
+    "endMs": 12100,
+    "timestampMs": 12220,
+    "confidence": 0.998114
+  },
+  {
+    "text": " sectors",
+    "startMs": 12100,
+    "endMs": 12700,
+    "timestampMs": 12620,
+    "confidence": 0.998955
+  },
+  {
+    "text": " like",
+    "startMs": 12700,
+    "endMs": 13030,
+    "timestampMs": 13040,
+    "confidence": 0.902359
+  },
+  {
+    "text": " healthcare,",
+    "startMs": 13030,
+    "endMs": 14040,
+    "timestampMs": 13760,
+    "confidence": 0.619635
+  },
+  {
+    "text": " finance,",
+    "startMs": 14040,
+    "endMs": 14840,
+    "timestampMs": 14480,
+    "confidence": 0.695585
+  },
+  {
+    "text": " and",
+    "startMs": 14840,
+    "endMs": 15210,
+    "timestampMs": 15300,
+    "confidence": 0.999828
+  },
+  {
+    "text": " education.",
+    "startMs": 15210,
+    "endMs": 16720,
+    "timestampMs": 15980,
+    "confidence": 0.99983
+  },
+  {
+    "text": " In",
+    "startMs": 16720,
+    "endMs": 16910,
+    "timestampMs": 17060,
+    "confidence": 0.997954
+  },
+  {
+    "text": " healthcare,",
+    "startMs": 16910,
+    "endMs": 18050,
+    "timestampMs": 17800,
+    "confidence": 0.906798
+  },
+  {
+    "text": " AI",
+    "startMs": 18050,
+    "endMs": 18240,
+    "timestampMs": 18560,
+    "confidence": 0.983885
+  },
+  {
+    "text": " assists",
+    "startMs": 18240,
+    "endMs": 19030,
+    "timestampMs": 19040,
+    "confidence": 0.974495
+  },
+  {
+    "text": " in",
+    "startMs": 19030,
+    "endMs": 19100,
+    "timestampMs": 19440,
+    "confidence": 0.992366
+  },
+  {
+    "text": " diagnosing",
+    "startMs": 19100,
+    "endMs": 20030,
+    "timestampMs": 19740,
+    "confidence": 0.991308
+  },
+  {
+    "text": " diseases",
+    "startMs": 20030,
+    "endMs": 20840,
+    "timestampMs": 20620,
+    "confidence": 0.995369
+  },
+  {
+    "text": " and",
+    "startMs": 20840,
+    "endMs": 21170,
+    "timestampMs": 21380,
+    "confidence": 0.99975
+  },
+  {
+    "text": " personalizing",
+    "startMs": 21170,
+    "endMs": 22180,
+    "timestampMs": 21680,
+    "confidence": 0.996172
+  },
+  {
+    "text": " treatment",
+    "startMs": 22180,
+    "endMs": 22950,
+    "timestampMs": 22380,
+    "confidence": 0.998553
+  },
+  {
+    "text": " plans",
+    "startMs": 22950,
+    "endMs": 23350,
+    "timestampMs": 22960,
+    "confidence": 0.998273
+  },
+  {
+    "text": " for",
+    "startMs": 23350,
+    "endMs": 23610,
+    "timestampMs": 23140,
+    "confidence": 0.999485
+  },
+  {
+    "text": " patients.",
+    "startMs": 23610,
+    "endMs": 24560,
+    "timestampMs": 23920,
+    "confidence": 0.996295
+  },
+  {
+    "text": " Finance",
+    "startMs": 24560,
+    "endMs": 25240,
+    "timestampMs": 25140,
+    "confidence": 0.693224
+  },
+  {
+    "text": " sees",
+    "startMs": 25240,
+    "endMs": 25630,
+    "timestampMs": 25600,
+    "confidence": 0.996022
+  },
+  {
+    "text": " AI",
+    "startMs": 25630,
+    "endMs": 25820,
+    "timestampMs": 26160,
+    "confidence": 0.99768
+  },
+  {
+    "text": " enhancing",
+    "startMs": 25820,
+    "endMs": 26690,
+    "timestampMs": 26740,
+    "confidence": 0.881889
+  },
+  {
+    "text": " fraud",
+    "startMs": 26690,
+    "endMs": 27290,
+    "timestampMs": 27300,
+    "confidence": 0.99791
+  },
+  {
+    "text": " detection",
+    "startMs": 27290,
+    "endMs": 28080,
+    "timestampMs": 27900,
+    "confidence": 0.932353
+  },
+  {
+    "text": " and",
+    "startMs": 28100,
+    "endMs": 28370,
+    "timestampMs": 28440,
+    "confidence": 0.999569
+  },
+  {
+    "text": " automating",
+    "startMs": 28370,
+    "endMs": 29330,
+    "timestampMs": 28800,
+    "confidence": 0.986752
+  },
+  {
+    "text": " trading",
+    "startMs": 29330,
+    "endMs": 30010,
+    "timestampMs": 29700,
+    "confidence": 0.973432
+  },
+  {
+    "text": " processes,",
+    "startMs": 30010,
+    "endMs": 31110,
+    "timestampMs": 30460,
+    "confidence": 0.988259
+  },
+  {
+    "text": " increasing",
+    "startMs": 31110,
+    "endMs": 32070,
+    "timestampMs": 31760,
+    "confidence": 0.797298
+  },
+  {
+    "text": " efficiency.",
+    "startMs": 32070,
+    "endMs": 33340,
+    "timestampMs": 32720,
+    "confidence": 0.991816
+  },
+  {
+    "text": " Education",
+    "startMs": 33340,
+    "endMs": 34160,
+    "timestampMs": 34040,
+    "confidence": 0.973984
+  },
+  {
+    "text": " benefits",
+    "startMs": 34160,
+    "endMs": 34770,
+    "timestampMs": 34600,
+    "confidence": 0.994401
+  },
+  {
+    "text": " from",
+    "startMs": 34770,
+    "endMs": 35100,
+    "timestampMs": 35020,
+    "confidence": 0.991923
+  },
+  {
+    "text": " AI",
+    "startMs": 35100,
+    "endMs": 35270,
+    "timestampMs": 35460,
+    "confidence": 0.997778
+  },
+  {
+    "text": " driven,",
+    "startMs": 35270,
+    "endMs": 35800,
+    "timestampMs": 35840,
+    "confidence": 0.673348
+  },
+  {
+    "text": " personalized",
+    "startMs": 35800,
+    "endMs": 36800,
+    "timestampMs": 36440,
+    "confidence": 0.897969
+  },
+  {
+    "text": " learning",
+    "startMs": 36800,
+    "endMs": 37470,
+    "timestampMs": 37060,
+    "confidence": 0.989863
+  },
+  {
+    "text": " experiences,",
+    "startMs": 37470,
+    "endMs": 38400,
+    "timestampMs": 37900,
+    "confidence": 0.996807
+  },
+  {
+    "text": " helping",
+    "startMs": 38400,
+    "endMs": 39030,
+    "timestampMs": 38800,
+    "confidence": 0.998753
+  },
+  {
+    "text": " students",
+    "startMs": 39030,
+    "endMs": 39750,
+    "timestampMs": 39440,
+    "confidence": 0.999161
+  },
+  {
+    "text": " learn",
+    "startMs": 39750,
+    "endMs": 40200,
+    "timestampMs": 39880,
+    "confidence": 0.998692
+  },
+  {
+    "text": " at",
+    "startMs": 40200,
+    "endMs": 40380,
+    "timestampMs": 40060,
+    "confidence": 0.995577
+  },
+  {
+    "text": " their",
+    "startMs": 40380,
+    "endMs": 40830,
+    "timestampMs": 40240,
+    "confidence": 0.999355
+  },
+  {
+    "text": " own",
+    "startMs": 40830,
+    "endMs": 41460,
+    "timestampMs": 40560,
+    "confidence": 0.999683
+  },
+  {
+    "text": " pace.",
+    "startMs": 41460,
+    "endMs": 41760,
+    "timestampMs": 41100,
+    "confidence": 0.999569
+  },
+  {
+    "text": " As",
+    "startMs": 41760,
+    "endMs": 41970,
+    "timestampMs": 42120,
+    "confidence": 0.998955
+  },
+  {
+    "text": " AI",
+    "startMs": 41970,
+    "endMs": 42180,
+    "timestampMs": 42520,
+    "confidence": 0.998821
+  },
+  {
+    "text": " technology",
+    "startMs": 42180,
+    "endMs": 43220,
+    "timestampMs": 43120,
+    "confidence": 0.991276
+  },
+  {
+    "text": " advances,",
+    "startMs": 43220,
+    "endMs": 44280,
+    "timestampMs": 43900,
+    "confidence": 0.999155
+  },
+  {
+    "text": " ethical",
+    "startMs": 44280,
+    "endMs": 44760,
+    "timestampMs": 44760,
+    "confidence": 0.996846
+  },
+  {
+    "text": " considerations",
+    "startMs": 44760,
+    "endMs": 45750,
+    "timestampMs": 45560,
+    "confidence": 0.998801
+  },
+  {
+    "text": " become",
+    "startMs": 45750,
+    "endMs": 46180,
+    "timestampMs": 46260,
+    "confidence": 0.961669
+  },
+  {
+    "text": " paramount",
+    "startMs": 46180,
+    "endMs": 46880,
+    "timestampMs": 46740,
+    "confidence": 0.99732
+  },
+  {
+    "text": " to",
+    "startMs": 46880,
+    "endMs": 47070,
+    "timestampMs": 47200,
+    "confidence": 0.999931
+  },
+  {
+    "text": " ensure",
+    "startMs": 47070,
+    "endMs": 47630,
+    "timestampMs": 47620,
+    "confidence": 0.994801
+  },
+  {
+    "text": " responsible",
+    "startMs": 47630,
+    "endMs": 48690,
+    "timestampMs": 48420,
+    "confidence": 0.993436
+  },
+  {
+    "text": " development.",
+    "startMs": 48690,
+    "endMs": 50040,
+    "timestampMs": 49140,
+    "confidence": 0.999605
+  },
+  {
+    "text": " Transparency",
+    "startMs": 50040,
+    "endMs": 51230,
+    "timestampMs": 50920,
+    "confidence": 0.922996
+  },
+  {
+    "text": " in",
+    "startMs": 51230,
+    "endMs": 51430,
+    "timestampMs": 51480,
+    "confidence": 0.996489
+  },
+  {
+    "text": " AI",
+    "startMs": 51430,
+    "endMs": 51630,
+    "timestampMs": 51940,
+    "confidence": 0.999262
+  },
+  {
+    "text": " algorithms",
+    "startMs": 51630,
+    "endMs": 52670,
+    "timestampMs": 52360,
+    "confidence": 0.984417
+  },
+  {
+    "text": " is",
+    "startMs": 52670,
+    "endMs": 52910,
+    "timestampMs": 53140,
+    "confidence": 0.699577
+  },
+  {
+    "text": " crucial",
+    "startMs": 52910,
+    "endMs": 53600,
+    "timestampMs": 53520,
+    "confidence": 0.996862
+  },
+  {
+    "text": " to",
+    "startMs": 53600,
+    "endMs": 53810,
+    "timestampMs": 53820,
+    "confidence": 0.998727
+  },
+  {
+    "text": " build",
+    "startMs": 53810,
+    "endMs": 54200,
+    "timestampMs": 54280,
+    "confidence": 0.998485
+  },
+  {
+    "text": " trust",
+    "startMs": 54200,
+    "endMs": 54630,
+    "timestampMs": 54660,
+    "confidence": 0.996291
+  },
+  {
+    "text": " and",
+    "startMs": 54630,
+    "endMs": 54900,
+    "timestampMs": 55060,
+    "confidence": 0.988201
+  },
+  {
+    "text": " understanding",
+    "startMs": 54900,
+    "endMs": 56030,
+    "timestampMs": 55700,
+    "confidence": 0.996457
+  },
+  {
+    "text": " with",
+    "startMs": 56030,
+    "endMs": 56240,
+    "timestampMs": 56000,
+    "confidence": 0.996149
+  },
+  {
+    "text": " the",
+    "startMs": 56240,
+    "endMs": 57100,
+    "timestampMs": 56140,
+    "confidence": 0.999573
+  },
+  {
+    "text": " public.",
+    "startMs": 57100,
+    "endMs": 57400,
+    "timestampMs": 56500,
+    "confidence": 0.999401
+  },
+  {
+    "text": " The",
+    "startMs": 57410,
+    "endMs": 57710,
+    "timestampMs": 57660,
+    "confidence": 0.992809
+  },
+  {
+    "text": " future",
+    "startMs": 57710,
+    "endMs": 58330,
+    "timestampMs": 58000,
+    "confidence": 0.997626
+  },
+  {
+    "text": " of",
+    "startMs": 58330,
+    "endMs": 58530,
+    "timestampMs": 58260,
+    "confidence": 0.998864
+  },
+  {
+    "text": " AI",
+    "startMs": 58530,
+    "endMs": 58760,
+    "timestampMs": 58740,
+    "confidence": 0.998978
+  },
+  {
+    "text": " will",
+    "startMs": 58760,
+    "endMs": 59010,
+    "timestampMs": 59040,
+    "confidence": 0.96991
+  },
+  {
+    "text": " likely",
+    "startMs": 59010,
+    "endMs": 59400,
+    "timestampMs": 59400,
+    "confidence": 0.997392
+  },
+  {
+    "text": " involve",
+    "startMs": 59400,
+    "endMs": 59920,
+    "timestampMs": 59940,
+    "confidence": 0.980251
+  },
+  {
+    "text": " collaboration",
+    "startMs": 59920,
+    "endMs": 61120,
+    "timestampMs": 60740,
+    "confidence": 0.962576
+  },
+  {
+    "text": " between",
+    "startMs": 61120,
+    "endMs": 61950,
+    "timestampMs": 61660,
+    "confidence": 0.999813
+  },
+  {
+    "text": " humans",
+    "startMs": 61950,
+    "endMs": 62680,
+    "timestampMs": 62300,
+    "confidence": 0.994383
+  },
+  {
+    "text": " and",
+    "startMs": 62680,
+    "endMs": 63010,
+    "timestampMs": 63060,
+    "confidence": 0.92849
+  },
+  {
+    "text": " machines",
+    "startMs": 63010,
+    "endMs": 63940,
+    "timestampMs": 63720,
+    "confidence": 0.990773
+  },
+  {
+    "text": " for",
+    "startMs": 63940,
+    "endMs": 64250,
+    "timestampMs": 64300,
+    "confidence": 0.984269
+  },
+  {
+    "text": " optimal",
+    "startMs": 64250,
+    "endMs": 65010,
+    "timestampMs": 64720,
+    "confidence": 0.998527
+  },
+  {
+    "text": " results.",
+    "startMs": 65010,
+    "endMs": 66120,
+    "timestampMs": 65580,
+    "confidence": 0.99927
+  },
+  {
+    "text": " AI",
+    "startMs": 66120,
+    "endMs": 66440,
+    "timestampMs": 66920,
+    "confidence": 0.998022
+  },
+  {
+    "text": " could",
+    "startMs": 66440,
+    "endMs": 66780,
+    "timestampMs": 67260,
+    "confidence": 0.99867
+  },
+  {
+    "text": " create",
+    "startMs": 66780,
+    "endMs": 67340,
+    "timestampMs": 67720,
+    "confidence": 0.999762
+  },
+  {
+    "text": " new",
+    "startMs": 67340,
+    "endMs": 67720,
+    "timestampMs": 68140,
+    "confidence": 0.992776
+  },
+  {
+    "text": " job",
+    "startMs": 67720,
+    "endMs": 67900,
+    "timestampMs": 68400,
+    "confidence": 0.980653
+  },
+  {
+    "text": " opportunities",
+    "startMs": 67900,
+    "endMs": 69160,
+    "timestampMs": 69040,
+    "confidence": 0.998963
+  },
+  {
+    "text": " while",
+    "startMs": 69160,
+    "endMs": 69610,
+    "timestampMs": 69520,
+    "confidence": 0.999596
+  },
+  {
+    "text": " also",
+    "startMs": 69610,
+    "endMs": 69960,
+    "timestampMs": 70060,
+    "confidence": 0.999274
+  },
+  {
+    "text": " shifting",
+    "startMs": 69960,
+    "endMs": 70700,
+    "timestampMs": 70420,
+    "confidence": 0.999033
+  },
+  {
+    "text": " the",
+    "startMs": 70700,
+    "endMs": 70970,
+    "timestampMs": 70800,
+    "confidence": 0.996061
+  },
+  {
+    "text": " nature",
+    "startMs": 70970,
+    "endMs": 71520,
+    "timestampMs": 71020,
+    "confidence": 0.999537
+  },
+  {
+    "text": " of",
+    "startMs": 71520,
+    "endMs": 71700,
+    "timestampMs": 71280,
+    "confidence": 0.999098
+  },
+  {
+    "text": " existing",
+    "startMs": 71700,
+    "endMs": 72400,
+    "timestampMs": 71720,
+    "confidence": 0.999491
+  },
+  {
+    "text": " roles.",
+    "startMs": 72400,
+    "endMs": 73200,
+    "timestampMs": 72320,
+    "confidence": 0.995957
+  },
+  {
+    "text": " Society",
+    "startMs": 73200,
+    "endMs": 73820,
+    "timestampMs": 73760,
+    "confidence": 0.978536
+  },
+  {
+    "text": " must",
+    "startMs": 73820,
+    "endMs": 74160,
+    "timestampMs": 74160,
+    "confidence": 0.999765
+  },
+  {
+    "text": " adapt",
+    "startMs": 74160,
+    "endMs": 74660,
+    "timestampMs": 74600,
+    "confidence": 0.999531
+  },
+  {
+    "text": " to",
+    "startMs": 74660,
+    "endMs": 74800,
+    "timestampMs": 74860,
+    "confidence": 0.996763
+  },
+  {
+    "text": " these",
+    "startMs": 74800,
+    "endMs": 75220,
+    "timestampMs": 75100,
+    "confidence": 0.999329
+  },
+  {
+    "text": " changes,",
+    "startMs": 75220,
+    "endMs": 75880,
+    "timestampMs": 75680,
+    "confidence": 0.999012
+  },
+  {
+    "text": " fostering",
+    "startMs": 75880,
+    "endMs": 76460,
+    "timestampMs": 76400,
+    "confidence": 0.986865
+  },
+  {
+    "text": " skills",
+    "startMs": 76460,
+    "endMs": 76840,
+    "timestampMs": 76980,
+    "confidence": 0.997765
+  },
+  {
+    "text": " that",
+    "startMs": 76840,
+    "endMs": 77120,
+    "timestampMs": 77280,
+    "confidence": 0.993862
+  },
+  {
+    "text": " complement",
+    "startMs": 77120,
+    "endMs": 77770,
+    "timestampMs": 77780,
+    "confidence": 0.942849
+  },
+  {
+    "text": " AI",
+    "startMs": 77770,
+    "endMs": 77950,
+    "timestampMs": 78220,
+    "confidence": 0.97046
+  },
+  {
+    "text": " technologies",
+    "startMs": 77950,
+    "endMs": 79120,
+    "timestampMs": 78840,
+    "confidence": 0.984487
+  },
+  {
+    "text": " effectively.",
+    "startMs": 79120,
+    "endMs": 80480,
+    "timestampMs": 79660,
+    "confidence": 0.981397
+  },
+  {
+    "text": " Challenges",
+    "startMs": 80480,
+    "endMs": 81380,
+    "timestampMs": 81040,
+    "confidence": 0.902848
+  },
+  {
+    "text": " such",
+    "startMs": 81380,
+    "endMs": 81710,
+    "timestampMs": 81500,
+    "confidence": 0.917496
+  },
+  {
+    "text": " as",
+    "startMs": 81710,
+    "endMs": 81860,
+    "timestampMs": 81800,
+    "confidence": 0.992157
+  },
+  {
+    "text": " data",
+    "startMs": 81860,
+    "endMs": 82200,
+    "timestampMs": 82200,
+    "confidence": 0.952918
+  },
+  {
+    "text": " privacy",
+    "startMs": 82200,
+    "endMs": 82880,
+    "timestampMs": 82700,
+    "confidence": 0.996537
+  },
+  {
+    "text": " and",
+    "startMs": 82880,
+    "endMs": 83210,
+    "timestampMs": 83280,
+    "confidence": 0.654015
+  },
+  {
+    "text": " bias",
+    "startMs": 83210,
+    "endMs": 83720,
+    "timestampMs": 83700,
+    "confidence": 0.991363
+  },
+  {
+    "text": " in",
+    "startMs": 83720,
+    "endMs": 83940,
+    "timestampMs": 84120,
+    "confidence": 0.91076
+  },
+  {
+    "text": " AI",
+    "startMs": 83940,
+    "endMs": 84160,
+    "timestampMs": 84480,
+    "confidence": 0.998152
+  },
+  {
+    "text": " algorithms",
+    "startMs": 84160,
+    "endMs": 85280,
+    "timestampMs": 85080,
+    "confidence": 0.997207
+  },
+  {
+    "text": " must",
+    "startMs": 85300,
+    "endMs": 85720,
+    "timestampMs": 85740,
+    "confidence": 0.998835
+  },
+  {
+    "text": " be",
+    "startMs": 85720,
+    "endMs": 85850,
+    "timestampMs": 86000,
+    "confidence": 0.999304
+  },
+  {
+    "text": " addressed",
+    "startMs": 85850,
+    "endMs": 86700,
+    "timestampMs": 86440,
+    "confidence": 0.996639
+  },
+  {
+    "text": " proactively.",
+    "startMs": 86700,
+    "endMs": 88040,
+    "timestampMs": 86760,
+    "confidence": 0.992638
+  },
+  {
+    "text": " In",
+    "startMs": 88040,
+    "endMs": 88220,
+    "timestampMs": 88300,
+    "confidence": 0.996987
+  },
+  {
+    "text": " conclusion,",
+    "startMs": 88220,
+    "endMs": 89380,
+    "timestampMs": 88860,
+    "confidence": 0.997483
+  },
+  {
+    "text": " the",
+    "startMs": 89380,
+    "endMs": 89660,
+    "timestampMs": 89700,
+    "confidence": 0.936854
+  },
+  {
+    "text": " future",
+    "startMs": 89660,
+    "endMs": 90040,
+    "timestampMs": 90040,
+    "confidence": 0.998557
+  },
+  {
+    "text": " of",
+    "startMs": 90040,
+    "endMs": 90340,
+    "timestampMs": 90380,
+    "confidence": 0.984979
+  },
+  {
+    "text": " AI",
+    "startMs": 90340,
+    "endMs": 90690,
+    "timestampMs": 90700,
+    "confidence": 0.998883
+  },
+  {
+    "text": " holds",
+    "startMs": 90690,
+    "endMs": 91140,
+    "timestampMs": 91080,
+    "confidence": 0.964808
+  },
+  {
+    "text": " immense",
+    "startMs": 91140,
+    "endMs": 91840,
+    "timestampMs": 91720,
+    "confidence": 0.971323
+  },
+  {
+    "text": " promise,",
+    "startMs": 91840,
+    "endMs": 92560,
+    "timestampMs": 92400,
+    "confidence": 0.997788
+  },
+  {
+    "text": " but",
+    "startMs": 92560,
+    "endMs": 92870,
+    "timestampMs": 92920,
+    "confidence": 0.99907
+  },
+  {
+    "text": " careful",
+    "startMs": 92870,
+    "endMs": 93480,
+    "timestampMs": 93280,
+    "confidence": 0.991007
+  },
+  {
+    "text": " navigation",
+    "startMs": 93480,
+    "endMs": 94400,
+    "timestampMs": 93840,
+    "confidence": 0.997326
+  },
+  {
+    "text": " is",
+    "startMs": 94400,
+    "endMs": 94580,
+    "timestampMs": 94440,
+    "confidence": 0.999375
+  },
+  {
+    "text": " essential.",
+    "startMs": 94580,
+    "endMs": 95720,
+    "timestampMs": 95060,
+    "confidence": 0.999735
+  },
+  {
+    "text": " Join",
+    "startMs": 95720,
+    "endMs": 96100,
+    "timestampMs": 96080,
+    "confidence": 0.998275
+  },
+  {
+    "text": " us",
+    "startMs": 96100,
+    "endMs": 96290,
+    "timestampMs": 96440,
+    "confidence": 0.999817
+  },
+  {
+    "text": " as",
+    "startMs": 96290,
+    "endMs": 96480,
+    "timestampMs": 96660,
+    "confidence": 0.995046
+  },
+  {
+    "text": " we",
+    "startMs": 96480,
+    "endMs": 96670,
+    "timestampMs": 96920,
+    "confidence": 0.999859
+  },
+  {
+    "text": " continue",
+    "startMs": 96670,
+    "endMs": 97440,
+    "timestampMs": 97320,
+    "confidence": 0.999251
+  },
+  {
+    "text": " to",
+    "startMs": 97440,
+    "endMs": 97670,
+    "timestampMs": 97800,
+    "confidence": 0.989617
+  },
+  {
+    "text": " explore",
+    "startMs": 97670,
+    "endMs": 98350,
+    "timestampMs": 98260,
+    "confidence": 0.997564
+  },
+  {
+    "text": " these",
+    "startMs": 98350,
+    "endMs": 98670,
+    "timestampMs": 98700,
+    "confidence": 0.889257
+  },
+  {
+    "text": " developments",
+    "startMs": 98670,
+    "endMs": 99520,
+    "timestampMs": 99300,
+    "confidence": 0.976373
+  },
+  {
+    "text": " and",
+    "startMs": 99520,
+    "endMs": 99750,
+    "timestampMs": 99780,
+    "confidence": 0.999805
+  },
+  {
+    "text": " their",
+    "startMs": 99750,
+    "endMs": 100140,
+    "timestampMs": 100220,
+    "confidence": 0.998393
+  },
+  {
+    "text": " implications",
+    "startMs": 100140,
+    "endMs": 101080,
+    "timestampMs": 100880,
+    "confidence": 0.998633
+  },
+  {
+    "text": " for",
+    "startMs": 101080,
+    "endMs": 101310,
+    "timestampMs": 101340,
+    "confidence": 0.99902
+  },
+  {
+    "text": " our",
+    "startMs": 101310,
+    "endMs": 101540,
+    "timestampMs": 101580,
+    "confidence": 0.999657
+  },
+  {
+    "text": " world.",
+    "startMs": 101540,
+    "endMs": 102200,
+    "timestampMs": 102180,
+    "confidence": 0.999352
+  }
+]
