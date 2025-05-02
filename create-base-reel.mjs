@@ -99,24 +99,31 @@ async function generateScriptAndTags({ topic, dummy }) {
     temperature: 0.7,
   });
 
-  const prompt = `Generate a video script about "${topic}". Split the script into segments of 2-4 seconds each (assume 18 words per 4 seconds, 9 per 2 seconds). For each segment, suggest ONE relevant, descriptive, single-word tag. Respond in this JSON format: { "segments": [ { "text": "...", "tag": "..." }, ... ] }`;
+  const prompt = `Create a short, viral Instagram Reel script on similar to the topic, but not exactly same as: "${topic}".
+  - The total duration must be around 40 seconds. 
+  - Use a highly engaging, entertaining, meme-like tone. 
+  - Start with a strong hook to retain viewer attention in the first 3 seconds.
+  - Include relatable or humorous observations that drive shareability.
+  - The script should feel like it's being narrated in a reel — punchy and fast-paced.
+  - Return the full script as a single string under "audioScriptText".
+  - Also return an array of 6-10 one-word descriptive tags that reflect key moments or themes in the script.
+  Respond in this exact JSON format:
+
+  {
+    "audioScriptText": "Full script here, in a casual storytelling style.",
+    "tags": ["tag1", "tag2", "tag3", ...]
+  }`;
+
   llm = llm.withStructuredOutput(
     z.object({
-      segments: z.array(
-        z.object({
-          text: z.string(),
-          tag: z.string(),
-        }),
-      ),
+      audioScriptText: z.string,
+      tags: z.array(z.string()),
     }),
   );
 
   const response = await llm.invoke(prompt);
   try {
-    const data = response;
-    if (!data.segments || !Array.isArray(data.segments))
-      throw new Error("Malformed LLM response");
-    return data.segments;
+    return response;
   } catch (e) {
     throw new Error(
       "Failed to parse LLM JSON: " + e.message + "\nRaw response: " + response,
@@ -145,21 +152,20 @@ async function generateAudio({ scriptText, outPath, dummy }) {
 
 // 3. Fetch and trim videos for each tag
 async function fetchAndTrimVideosAndMergeThem(
-  segments,
+  tags,
   tempDir,
   outputFile = path.join(tempDir, "merged.mp4"),
   options = {},
   dummy = false,
 ) {
   // Validate inputs
-  if (!Array.isArray(segments) || segments.length === 0) {
-    throw new Error("segments must be a non-empty array");
-  }
+  // if (!Array.isArray(segments) || segments.length === 0) {
+  //   throw new Error("segments must be a non-empty array");
+  // }
   // Ensure tempDir exists
   await fs.mkdir(tempDir, { recursive: true });
 
   // Fetch CDN URLs once
-  const tags = segments.map((s) => s.tag);
   let videoPaths = [];
   if (dummy) {
     videoPaths = [
@@ -176,7 +182,7 @@ async function fetchAndTrimVideosAndMergeThem(
     ];
   } else {
     videoPaths = await searchForAnimeVideos({
-      limit: segments.length,
+      limit: 15,
       tags,
     });
   }
@@ -332,20 +338,20 @@ export async function createBaseReel({
 }) {
   await fs.mkdir(tempDir, { recursive: true });
   // 1. Script and tags
-  const segments = await generateScriptAndTags({ topic, dummy: false });
-  const scriptText = segments.map((s) => s.text).join(" ");
+  const { audioScriptText, tags } = await generateScriptAndTags({
+    topic,
+    dummy: false,
+  });
   // 2. Audio
   const audioPath = path.resolve(path.join(tempDir, "audio.mp3"));
-  await generateAudio({ scriptText, outPath: audioPath, dummy: false });
+  await generateAudio({
+    scriptText: audioScriptText,
+    outPath: audioPath,
+    dummy: false,
+  });
   // 3. Videos
   const mergedPath = path.join(tempDir, "merged.mp4");
-  await fetchAndTrimVideosAndMergeThem(
-    segments,
-    tempDir,
-    mergedPath,
-    {},
-    false,
-  );
+  await fetchAndTrimVideosAndMergeThem(tags, tempDir, mergedPath, {}, false);
   // 4. Add audio
   await addAudioWithFreezeTrim(mergedPath, audioPath, output);
   return { output, segments };
@@ -353,9 +359,28 @@ export async function createBaseReel({
 
 // Example usage:
 (async () => {
+  const topics = [
+    "Why Gen Z can’t make a phone call without anxiety",
+    "POV: You open your laptop to work, 3 hours of YouTube later...",
+    "Every Indian parent when you ask them about your childhood trauma",
+    "Signs you’re secretly the friend everyone depends on (but never checks on)",
+    "What your Spotify playlist says about your mental state",
+    "If AI was your clingy ex",
+    "Every programmer ever: Writing code vs Debugging code",
+    "ChatGPT but it has daddy issues",
+    "You vs AI in 2030 job interviews",
+    "Tech bros explaining Web3 to their grandmas",
+    "How I spent ₹3000 in 2 days without buying anything useful",
+    "POV: You get your salary… and your landlord gets it too",
+    "Types of people on UPI – the ‘send 1 rupee first’ gang",
+    "Millennial vs Gen Z investing strategies (meme version)",
+    "When your monthly budget lasts only till the 7th",
+  ];
+
+  const topic = topics[Math.floor(Math.random() * topics.length)];
   const fileName = `./public/reel.mp4`;
   const result = await createBaseReel({
-    topic: "The future of AI",
+    topic,
     tempDir: "./tmp",
     output: fileName,
   });

@@ -19,7 +19,7 @@ export const RemotionRoot: React.FC = () => {
       height={1920}
       defaultProps={{
         src: staticFile("reel.mp4"),
-        watermarkText: "@thesleebit",
+        watermarkText: "@Sleebit",
       }}
     />
   );

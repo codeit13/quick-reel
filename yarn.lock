@@ -776,6 +776,13 @@
   dependencies:
     typescript-eslint "8.21.0"
 
+"@remotion/gif@4.0.291":
+  version "4.0.291"
+  resolved "https://registry.yarnpkg.com/@remotion/gif/-/gif-4.0.291.tgz#bc2b1bd3f1d61fd922af89984c29626b8dce2778"
+  integrity sha512-CYYeHllIBmzWtgi/r6MlusgnAhRjOnRP6nqo+y9qZJ8nOWBGaMPeSU80SXAdwJB1x3Hv+lOzyfFDxBkuT2TGLA==
+  dependencies:
+    remotion "4.0.291"
+
 "@remotion/install-whisper-cpp@4.0.291":
   version "4.0.291"
   resolved "https://registry.npmjs.org/@remotion/install-whisper-cpp/-/install-whisper-cpp-4.0.291.tgz"
@@ -2114,6 +2121,11 @@ get-stream@^6.0.0:
   version "6.0.1"
   resolved "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
+
+gif-talkr@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gif-talkr/-/gif-talkr-1.0.1.tgz#8cc064ed31e1e63128e980cb0a58b3b89e42f001"
+  integrity sha512-juBdeZxaTLPnA6dcQ3e5lGpSgOgY0SBWFTIJ6nLm9E0ELxP5edSn06IOb5sij9DFcrKkslMwZphhT1SQlA3nwA==
 
 glob-parent@^5.1.2:
   version "5.1.2"
