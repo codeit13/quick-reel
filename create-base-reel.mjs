@@ -116,7 +116,7 @@ async function generateScriptAndTags({ topic, dummy }) {
 
   llm = llm.withStructuredOutput(
     z.object({
-      audioScriptText: z.string,
+      audioScriptText: z.string(),
       tags: z.array(z.string()),
     }),
   );
