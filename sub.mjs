@@ -68,17 +68,17 @@ const processVideo = async (fullPath, entry, directory) => {
     return;
   }
 
-  const isTranscribed = existsSync(
-    fullPath
-      .replace(/.mp4$/, ".json")
-      .replace(/.mkv$/, ".json")
-      .replace(/.mov$/, ".json")
-      .replace(/.webm$/, ".json")
-      .replace("webcam", "subs"),
-  );
-  if (isTranscribed) {
-    return;
-  }
+  // const isTranscribed = existsSync(
+  //   fullPath
+  //     .replace(/.mp4$/, ".json")
+  //     .replace(/.mkv$/, ".json")
+  //     .replace(/.mov$/, ".json")
+  //     .replace(/.webm$/, ".json")
+  //     .replace("webcam", "subs"),
+  // );
+  // if (isTranscribed) {
+  //   return;
+  // }
   let shouldRemoveTempDirectory = false;
   if (!existsSync(path.join(process.cwd(), "temp"))) {
     mkdirSync(`temp`);

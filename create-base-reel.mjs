@@ -5,16 +5,17 @@ import { ChatOpenAI } from "@langchain/openai";
 import { ElevenLabsClient } from "elevenlabs";
 import ffmpeg from "fluent-ffmpeg";
 import fs from "fs/promises";
-// import fs from "fs-extra";
 import pLimit from "p-limit";
 import path from "path";
 import fetch from "node-fetch";
-import { searchForAnimeVideos } from "./services/sakugabooru.mjs";
 
-// .env
 import dotenv from "dotenv";
 import { z } from "zod";
+
 dotenv.config();
+
+import { searchForAnimeVideos } from "./services/sakugabooru.mjs";
+import { searchGifs } from "./services/giphy.mjs";
 
 // CONFIGURATION (replace with your keys)
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
@@ -22,6 +23,7 @@ const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY;
 const ELEVENLABS_VOICE_ID =
   process.env.ELEVENLABS_VOICE_ID || "EXAVITQu4vr4xnSDxMaL"; // default voice
 const VIDEO_API_URL = process.env.VIDEO_API_URL;
+const GIPHY_API_KEY = process.env.GIPHY_API_KEY;
 
 // 1. Generate script and tags (structured JSON)
 async function generateScriptAndTags({ topic, dummy }) {
@@ -358,31 +360,37 @@ export async function createBaseReel({
 }
 
 // Example usage:
-(async () => {
-  const topics = [
-    "Why Gen Z can’t make a phone call without anxiety",
-    "POV: You open your laptop to work, 3 hours of YouTube later...",
-    "Every Indian parent when you ask them about your childhood trauma",
-    "Signs you’re secretly the friend everyone depends on (but never checks on)",
-    "What your Spotify playlist says about your mental state",
-    "If AI was your clingy ex",
-    "Every programmer ever: Writing code vs Debugging code",
-    "ChatGPT but it has daddy issues",
-    "You vs AI in 2030 job interviews",
-    "Tech bros explaining Web3 to their grandmas",
-    "How I spent ₹3000 in 2 days without buying anything useful",
-    "POV: You get your salary… and your landlord gets it too",
-    "Types of people on UPI – the ‘send 1 rupee first’ gang",
-    "Millennial vs Gen Z investing strategies (meme version)",
-    "When your monthly budget lasts only till the 7th",
-  ];
+// (async () => {
+//   const topics = [
+//     "Why Gen Z can’t make a phone call without anxiety",
+//     "POV: You open your laptop to work, 3 hours of YouTube later...",
+//     "Every Indian parent when you ask them about your childhood trauma",
+//     "Signs you’re secretly the friend everyone depends on (but never checks on)",
+//     "What your Spotify playlist says about your mental state",
+//     "If AI was your clingy ex",
+//     "Every programmer ever: Writing code vs Debugging code",
+//     "ChatGPT but it has daddy issues",
+//     "You vs AI in 2030 job interviews",
+//     "Tech bros explaining Web3 to their grandmas",
+//     "How I spent ₹3000 in 2 days without buying anything useful",
+//     "POV: You get your salary… and your landlord gets it too",
+//     "Types of people on UPI – the ‘send 1 rupee first’ gang",
+//     "Millennial vs Gen Z investing strategies (meme version)",
+//     "When your monthly budget lasts only till the 7th",
+//   ];
 
-  const topic = topics[Math.floor(Math.random() * topics.length)];
-  const fileName = `./public/reel.mp4`;
-  const result = await createBaseReel({
-    topic,
-    tempDir: "./tmp",
-    output: fileName,
-  });
-  console.log("Reel generated successfully: ", result.output);
-})();
+//   const topic = topics[Math.floor(Math.random() * topics.length)];
+//   const fileName = `./public/reel.mp4`;
+//   const result = await createBaseReel({
+//     topic,
+//     tempDir: "./tmp",
+//     output: fileName,
+//   });
+//   console.log("Reel generated successfully: ", result.output);
+// })();
+
+const results = await searchGifs({
+  searchTags: ["universe", "anime"],
+});
+
+console.log(results);
